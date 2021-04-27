@@ -19,6 +19,18 @@
                 <a href="/index.html" class="navbar-item">
                   Amiibo Search Engine
                 </a>
+                <div class="modal">
+                  <div class="modal-background"></div>
+                  <div class="modal-card">
+                    <header class="modal-card-head">
+                      <p class="modal-card-title">Search Examples</p>
+                      <button class="delete" aria-label="close"></button>
+                    </header>
+                    <section class="modal-card-body">
+                      Some content
+                    </section>
+                  </div>
+                </div>
                 <span class="navbar-burger" data-target="navbarMenuHeroC">
                   <span></span>
                   <span></span>
@@ -33,14 +45,12 @@
                   <a class="navbar-item">
                     Contact
                   </a>
-                  <a class="navbar-item">
-                    Example
-                  </a>
                 </div>
               </div>
             </div>
           </header>
         </div>
+
         <div class="hero-body">
           <div class="container is-widescreen">
               <img class="img">
@@ -49,9 +59,9 @@
               <p class="aSeries"></p>
               <p class="releaseDate"></p>
               <p class="releaseDate1"></p>
-              <input class="searchBar" id="userInput" type="text" placeholder="Search for Amiibos now!">
-              <button class="searchBtn">Search</button>
-              <button class="clearBtn" onclick="document.getElementById('userInput').value = ''">Clear</button>
+              <input class="input searchBar" id="userInput" type="text" placeholder="Search for Amiibos now!">
+              <button class="button searchBtn">Search</button>
+              <button class="button clearBtn" onclick="document.getElementById('userInput').value = ''">Clear</button>
           </div>
         </div>
       </section>
