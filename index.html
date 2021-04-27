@@ -19,7 +19,7 @@
                 <a href="/index.html" class="navbar-item">
                   Amiibo Search Engine
                 </a>
-                <a class = "button is-info modal-button" data-target="#modal">Search Example</a>
+                <a class = "navbar-item is-info modal-button" data-target="#modal">Search Example</a>
                 <div id="modal" class = "modal">
                   <div class="modal-background"></div>
                   <div class="modal-card">
@@ -28,8 +28,12 @@
                       <button class="delete close-modal" aria-label="close"></button>
                     </header>
                     <section class = "modal-card-body">
-                      <div class="content">
-                        <h1>Mario</h1>
+                      <div class="content" id="modalContent">
+                        <h6>Super Mario Series</h6>
+                        <h6>Animal Crossing</h6>
+                        <h6>Zelda</h6>
+                        <h6>MegaMan</h6>
+                        <h6>Chibi Robo</h6>
                       </div>
                     </section>
                   </div>
@@ -45,7 +49,7 @@
                   <a href="/about.html" class="navbar-item">
                     About
                   </a>
-                  <a class="navbar-item">
+                  <a href="mailto:mkman751@yahoo.com" class="navbar-item">
                     Contact
                   </a>
                 </div>
@@ -55,17 +59,35 @@
         </div>
 
         <div class="hero-body">
-          <div class="container is-widescreen">
-              <img class="img">
-              <p class="name"></p>
-              <p class="gSeries"></p>
-              <p class="aSeries"></p>
-              <p class="releaseDate"></p>
-              <p class="releaseDate1"></p>
-              <input class="input searchBar" id="userInput" type="text" placeholder="Search for Amiibos now!">
-              <button class="button searchBtn">Search</button>
-              <button class="button clearBtn" onclick="document.getElementById('userInput').value = ''">Clear</button>
-          </div>
+          <article class="panel is-link">
+            <p class="panel-heading">
+              Search Here
+            </p>
+            <div class="panel-block">
+              <div class="content">
+                <p class="img"></p>
+              </div>
+            </div>
+            <div class="panel-block">
+              <p class="name">Name:</p>
+            </div>
+            <div class="panel-block">
+              <p class="gSeries">Game Series:</p>
+            </div>
+            <div class="panel-block">
+              <p class="aSeries">Amiibo Series:</p>
+            </div>
+            <div class="panel-block">
+              <p class="releaseDate">Au Release Date:</p>
+            </div>
+            <div class="panel-block">
+              <p class="releaseDate1">NA Release Date:</p>
+            </div>
+            <input class="input searchBar" id="userInput" type="text" placeholder="Search by name">
+            <input class="input searchBar2" id="userInput" type="text" placeholder="Search by series">
+            <button class="button searchBtn">Search</button>
+            <button class="button clearBtn" onclick="document.getElementById('userInput').value = ''">Clear</button>
+          </article>
         </div>
       </section>
     <script src="assets/js/script.js"></script>
