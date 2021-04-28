@@ -1,5 +1,5 @@
 #userInput {
-    width: 200px;
+    width: 300px;
 }
 
 #backImage {
@@ -11,4 +11,13 @@
 
 #mainTitle {
     color: black;
+    font-weight: bold;
+}
+
+#mainContainer {
+    height: 440px;
+}
+
+.container {
+    text-align: center;
 }
