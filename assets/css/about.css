@@ -1,0 +1,27 @@
+#backImage {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainTitle {
+    color: white;
+    font-weight: bold;
+}
+
+#about {
+    color: black;
+}
+
+#bodyContent {
+    height: 400px;
+}
+
+.marioBow {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 250px;
+    
+}
