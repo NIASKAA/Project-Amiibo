@@ -16,9 +16,6 @@
           <header class="navbar is-link">
             <div class="container">
               <div class="navbar-brand">
-                <a href="/index.html" class="navbar-item">
-                  Amiibo Search Engine
-                </a>
                 <a class = "navbar-item is-info modal-button" data-target="#modal">Search Example</a>
                 <div id="modal" class = "modal">
                   <div class="modal-background"></div>
@@ -69,13 +66,30 @@
        <div class="container">
         <section class="articles">
             <div class="column is-8 is-offset-2">
-                <div class="card article">
+                <div class="card article" id="mainContainer">
                     <div class="card-content">
                       <div class="content article-body">
-                        <p></p>
-                        <p></p>
-                        <h3 class="has-text-centered"></h3>
-                        <p></p>
+                       <article class="panel" id="panelContainer">
+                         <img class="img">
+                         <div class="panel-blocking">
+                           <p class="name">Name:</p>
+                         </div>
+                         <div class="panel-blocking">
+                           <p class="aSeries">Amiibo Series:</p>
+                         </div>
+                         <div class="panel-blocking">
+                           <p class="gSeries">Game Series:</p>
+                         </div>
+                         <div class="panel-blocking">
+                           <p class="releaseDate">AU Release Date:</p>
+                         </div>
+                         <div class="panel-blocking">
+                           <p class="releaseDate1">NA Release Date:</p>
+                         </div>
+                         <input class="input searchBar is-info" type="text" placeholder="Search by name" id="userInput">
+                       <button class="button searchBtn is-info" id="inputBtn">Search</button>
+                       <button class="button is-info">Clear</button>
+                       </article>
                       </div>
                     </div>
                 </div>

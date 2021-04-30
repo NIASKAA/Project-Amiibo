@@ -1,14 +1,26 @@
 #userInput {
-    width: 200px;
+    width: 300px;
 }
 
 #backImage {
-    background-image: url("/images/background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
 }
 
 #mainTitle {
-    color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#mainContainer {
+    height: 655px;
+}
+
+.container {
+    text-align: center;
+}
+
+#panelContainer {
+    height: 600px;
 }
