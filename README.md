@@ -17,7 +17,7 @@ Add badges from somewhere like:
 ## Deployment
 
 Link to github: https://github.com/NIASKAA/Project-Amiibo \
-Link to website: 
+Link to website: https://niaskaa.github.io/Project-Amiibo/
 
 
 ## Authors
