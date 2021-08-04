@@ -1,5 +1,6 @@
 # Project-Amiibo
-A simple search engine that uses Amiibo API to look for all current existing Amiibo in the world. 
+## User Story
+A simple search engine that uses Amiibo API to let users to search upon a database to find a specific amiibo figure.
 
     
 ## Tech Usage
