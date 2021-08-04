@@ -19,6 +19,9 @@ Add badges from somewhere like:
 Link to github: https://github.com/NIASKAA/Project-Amiibo \
 Link to website: https://niaskaa.github.io/Project-Amiibo/
 
+## Installation
+
+Clone this repository to receive all of the files
 
 ## Authors
 
