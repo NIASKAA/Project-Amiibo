@@ -22,7 +22,7 @@ Link to website: https://niaskaa.github.io/Project-Amiibo/
 
 ## Installation
 
-Clone this repository to receive all of the files
+Clone this repository to receive all of the files and run it with live servers from VS Code
 
 ## Authors
 
